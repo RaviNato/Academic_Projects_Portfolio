@@ -1,0 +1,67 @@
+<!-- 20/08 -->
+
+<link rel="stylesheet" href="styles.css">
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1 id="title">Formulário de pesquisa</h1>
+    <p id="description">Muito obrigad@ por tirar um tempo para nos ajudar melhorar a plataforma</p>
+    <form id="survey-form">
+
+      <label id="name-label">Nome</label><br>
+      <input id="name" type="text" required placeholder="Digite seu nome"></input><br>
+
+      <label id="email-label">Email</label><br>
+      <input id="email" type="email" required placeholder="Digite seu email"></input><br> 
+
+      <label id="number-label">Idade(opcional)</label><br>
+      <input id="number" type="number" min="1" max="100" placeholder="Digite sua idade"></input><br><br>
+      
+      <label id="dropdown-label">Qual opção melhor te define?</label><br>
+      <select id="dropdown">
+        <option value="cargo">Selecione um cargo</option>
+        <option value="aluno">Aluno</option>
+        <option value="funcionario">Funcionário</option>
+        <option value="pesquisador">Pesquisador</option>
+        <option value="nao">Prefiro não dizer</option>
+        <option value="outro">Outro</option>
+      </select><br><br>
+
+      <label id="radio-label">Você recomendária esse formulário a um amigo?</label><br>
+      <input type="radio" value="definitivamente" name="radio">Definitivamente</input><br>
+      <input type="radio" value="talvez" name="radio">Talvez</input><br>
+      <input type="radio" value="semcerteza" name="radio">Não tenho certeza</input><br><br>
+
+      <label id="dropdown2-label">Qual sua funcionalidade favorita?</label><br>
+      <select id="dropdown1">
+        <option value="opcao">Selecione uma opção</option>
+        <option value="desafios">Desafios</option>
+        <option value="projetos">Projetos</option>
+        <option value="comunidade">Comunidade</option>
+        <option value="cod">Código aberto</option>
+      </select><br><br>
+
+      <label id="checkbox-label">Qual sua funcionalidade favorita? (selecione tudo que for aplícavel)</label><br>
+      <input type="checkbox" value="front">Projetos Front-end</input><br>
+      <input type="checkbox" value="back">Projetos Back-end</input><br>
+      <input type="checkbox" value="dados">Vizualização de dados</input><br>
+      <input type="checkbox" value="desafios">Desafios</input><br>
+      <input type="checkbox" value="comunidade">Comunidade código aberto</input><br>
+      <input type="checkbox" value="salas">Sala de ajuda Git-hub</input><br>
+      <input type="checkbox" value="videos">Vídeos</input><br>
+      <input type="checkbox" value="encontros">Encontros</input><br>
+      <input type="checkbox" value="wiki">Wiki</input><br>
+      <input type="checkbox" value="forum">Forum</input><br>
+      <input type="checkbox" value="cursos">Cursos adicionais</input><br><br>
+
+      <label id="textarea-label">Algum comentário ou sujestão?</label><br>
+      <textarea></textarea><br><br>
+
+      <button type="submit" id="submit">Enviar</button>
+
+    </form>
+  </body>
+</html>
